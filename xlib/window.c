@@ -1,0 +1,6 @@
+#include <X11/Xlib.h>
+
+int main() {
+  Display *display = XOpenDisplay(NULL);
+  return 0;
+}
